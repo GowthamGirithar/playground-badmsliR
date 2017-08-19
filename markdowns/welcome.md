@@ -20,9 +20,9 @@ list.add("cat");
 
 2. It doesn't allow null values. If we try to add null values to any collection, then it throws a null pointer exception.
 
-''' java
+``` java
 List<String> list=List.of("apple",null);
-'''
+```
 
 3. They are serializable if all the elements are serializable.
 
