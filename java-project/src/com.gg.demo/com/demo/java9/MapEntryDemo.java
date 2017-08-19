@@ -1,6 +1,6 @@
 package com.demo.java9;
 
-import java.util.Map.Entry;
+import java.util.Map.*;
 
 /**
  * 
