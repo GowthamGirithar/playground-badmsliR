@@ -31,16 +31,16 @@ List<String> list=List.of("apple",null);
 
 # List (with Values and empty List)
 
-@[List.of() Demo]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[List.of() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/ListOfDemo.java"], "command": "/bin/bash run.sh"})
 
 
 # Set (with Values and empty Set)
-@[Set.of() Demo]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Set.of() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/SetOfDemo.java"], "command": "/bin/bash runSetOf.sh"})
 
 # Map (with Values and empty Map)
-@[Map.of() Demo]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Map.of() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/MapOfDemo.java"], "command": "/bin/bash runMapOf.sh"})
 
 # Map.Entry (with Values and empty Map.Entry)
-@[Map.Entry() Demo]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Map.Entry() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/ListOfDemo.java"], "command": "/bin/bash run.sh"})
 
 
