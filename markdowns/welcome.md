@@ -1,4 +1,4 @@
-# Java 9 - Collection Imporvements
+# Java 9 - Collection Improvements
 
 Java 9 has created factory methods for creating immutable Lists, Sets, Maps, and Map.Entry Objects. These utility methods are used to create empty or non-empty collection objects.
 
