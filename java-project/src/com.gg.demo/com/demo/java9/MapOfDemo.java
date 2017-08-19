@@ -11,7 +11,9 @@ public class MapOfDemo  {
 		Map<Integer,String> emptyMap = Map.of();
         Map<Integer,String> map = Map.of(1, "Apple", 2, "Bat", 3, "Cat");
 		
+		System.out.println("** Empty  Map **");
 		emptyMap.forEach((k,v) -> System.out.println( k +"-"+ v));
+		System.out.println("** Map with values **");
 		map.forEach((k,v) -> System.out.println( k +"-"+ v));
 }
 }

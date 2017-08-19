@@ -13,8 +13,8 @@ public class SetOfDemo  {
        Set<String> set2= Set.of();
 		
 		System.out.println("** Set with values **");
-		set1.forEach(value-> System.out::println);
+		set1.forEach(value-> System.out.println(value));
 		System.out.println("** List empty **");
-		set2.forEach(value-> System.out::println);
+		set2.forEach(value-> System.out.println(value));
 }
 }

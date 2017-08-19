@@ -41,6 +41,6 @@ List<String> list=List.of("apple",null);
 @[Map.of() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/MapOfDemo.java"], "command": "/bin/bash runMapOf.sh"})
 
 # Map.Entry (with Values and empty Map.Entry)
-@[Map.Entry() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/ListOfDemo.java"], "command": "/bin/bash run.sh"})
+@[Map.Entry() Demo]({"stubs": ["src/com.gg.demo/com/demo/java9/MapEntryDemo.java"], "command": "/bin/bash runMapEntry.sh"})
 
 

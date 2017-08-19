@@ -12,10 +12,10 @@ public class ListOfDemo  {
 		List<String> list1=List.of("apple","bat");
 		List<String> list2= List.of();
 		
-		System.out.println("** List with values **")
-		list1.forEach(value-> System.out::println);
-		System.out.println("** List empty **")
-		list2.forEach(value-> System.out::println);
+		System.out.println("** List with values **");
+		list1.forEach(value-> System.out.println(value));
+		System.out.println("** List empty **");
+		list2.forEach(value-> System.out.println(value));
 		
 }
 }
