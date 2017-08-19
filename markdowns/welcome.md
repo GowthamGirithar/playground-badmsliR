@@ -1,6 +1,33 @@
 # Welcome!
 
-Java 9 Collections
+Java 9 has created factory methods for creating immutable Lists, Sets, Maps, and Map.Entry Objects. These utility methods are used to create empty or non-empty collection objects.
+
+In Java 8 and earlier versions, we can use Collections class utility methods like unmodifiableXXX to create Immutable Collection objects for our requirements. If we want to create an Immutable List, then we can use the Collections.unmodifiableList method.
+
+However, these Collections.unmodifiableXXX methods are very tedious and verbose. To overcome those shortcomings, coupleJava 9 a couple of utility methods to List, Set, and Map interfaces to achieve the same behavior.
+
+These useful methods are used to create a new Non-Empty Immutable Map with 1-10 elements. The methods are designed in such a case that we can add only 10 elements to immutable List, Set, Map, and Map.Entry objects.
+
+If we have any requirement for an immutable collection with the size of the collection at a max of 10 or below, then we use this feature.
+
+Characteristics of These Utility Methods
+1. These methods are immutable. We cannot add or delete or update the elements in the collection. If we try to add or delete or update the elements, it throws an unsupportedOperationException.
+
+'''
+List<String> list=List.of("apple","bat");
+list.add("cat");
+
+'''
+2.It doesn't allow null values. If we try to add null values to any collection, then it throws a null pointer exception.
+
+'''
+List<String> list=List.of("apple",null);
+
+'''
+
+3.They are serializable if all the elements are serializable.
+
+
 
 # Hands-on Demo
 
