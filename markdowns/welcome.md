@@ -13,13 +13,16 @@ If we have any requirement for an immutable collection with the size of the coll
 Characteristics of These Utility Methods
 1. These methods are immutable. We cannot add or delete or update the elements in the collection. If we try to add or delete or update the elements, it throws an unsupportedOperationException.
 
-```List<String> list=List.of("apple","bat");
-list.add("cat");```
-
+``` java
+List<String> list=List.of("apple","bat");
+list.add("cat");
+```
 
 2. It doesn't allow null values. If we try to add null values to any collection, then it throws a null pointer exception.
 
-'''List<String> list=List.of("apple",null);'''
+''' java
+List<String> list=List.of("apple",null);
+'''
 
 3. They are serializable if all the elements are serializable.
 
